@@ -87,7 +87,7 @@ with open("gps_waypoints.txt") as f:
 	for line in f:
 		coordinateList.append(line.split(" ", 2))
 
-print "Coordinate List:"
+print ("Coordinate List:")
 print str(coordinateList)
 
 while waypointCount < len(coordinateList):
